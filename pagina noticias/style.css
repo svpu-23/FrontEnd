@@ -1,0 +1,92 @@
+body{
+    background-color: darkgray;
+
+}
+.main{
+    display: flex;
+    gap: 25px;
+}
+
+.header{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border: solid 1px black;
+    background-color: rgb(158, 105, 39);
+    color: black;
+
+}
+.footer{
+    background-color: blue;
+    color: black;
+}
+.article{
+    background-color: red;
+    color: black;
+}
+.nav{
+    background-color: green;
+    color: black;
+}
+.section{
+    display: flex;
+    gap: 10px;
+    background-color: lightcoral;
+    color: black;
+}
+.aside{
+    background-color: lightcyan;
+    color: black;
+}
+
+.article:hover,
+.aside:hover,
+.footer:hover,
+.header:hover,
+.nav:hover,
+.section:hover {
+    background-color: beige;
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.contenedor{
+    max-width: 900px;
+    margin: auto;
+}
+.noticia{
+    background-color: rgb(202, 98, 98);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border: solid 1px black;
+}
+.noticia:nth-child(1){
+    background-color: lightblue;
+}
+
+.noticia:nth-child(2){
+    background-color: lightgreen;
+}
+
+.noticia:nth-child(3){
+    background-color: lightyellow;
+}
+/* Noticia 1: crece */
+.noticia:nth-child(1):hover{
+    transform: scale(1.2);
+}
+
+/* Noticia 2: gira */
+.noticia:nth-child(2):hover{
+    transform: rotate(10deg);
+}
+
+/* Noticia 3: se mueve */
+.noticia:nth-child(3):hover{
+    transform: translateY(-10px);
+}

@@ -1,0 +1,99 @@
+body{
+    background-color: #e0e0e0;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor{
+    max-width: 900px;
+    margin: auto;
+}
+
+/* HEADER */
+.header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    background: linear-gradient(to right, #4a6cf7, #6a9cff);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* NAV */
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background: orange;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* MAIN */
+.main{
+    display: flex;
+    gap: 20px;
+}
+
+/* SECTION */
+.section{
+    display: flex;
+    gap: 20px;
+    flex: 3;
+}
+
+/* NOTICIAS */
+.noticia{
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* COLORES DISTINTOS */
+.noticia:nth-child(1){
+    background: linear-gradient(to right, #4a6cf7, #6a9cff);
+}
+
+.noticia:nth-child(2){
+    background: linear-gradient(to right, #2ecc71, #27ae60);
+}
+
+.noticia:nth-child(3){
+    background: linear-gradient(to right, #f1c40f, #f39c12);
+}
+
+/* HOVER */
+.noticia:hover{
+    transform: translateY(-10px);
+}
+
+/* ASIDE */
+.aside{
+    background: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+/* ARTICLE */
+.article{
+    background: linear-gradient(to right, #3a4a6b, #5a6b8c);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* FOOTER */
+.footer{
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background: #bbb;
+    border-radius: 10px;
+}

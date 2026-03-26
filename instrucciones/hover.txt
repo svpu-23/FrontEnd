@@ -1,0 +1,39 @@
+🚀 MÁS EFECTOS HOVER (PARA QUE ELIJAN)
+👉 Dales estos para que jueguen y aprendan:
+
+🔥 1. CRECER (ZOOM)
+.caja:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+🎨 2. CAMBIAR COLOR
+.caja:hover{
+    background-color: blue;
+}
+🌈 3. CAMBIAR IMAGEN
+.caja:hover{
+    background: url("imagen.jpg");
+    background-size: cover;
+}
+💡 4. SOMBRA
+.caja:hover{
+    box-shadow: 10px 10px 20px black;
+}
+🔄 5. ROTAR
+.caja:hover{
+    transform: rotate(10deg);
+}
+📏 6. AGRANDAR CAJA
+.caja:hover{
+    width: 200px;
+    height: 200px;
+}
+🎭 7. CAMBIAR TEXTO
+.caja:hover{
+    color: yellow;
+    font-size: 30px;
+}
+🧊 8. HACER TRANSPARENTE
+.caja:hover{
+    opacity: 0.5;
+}
